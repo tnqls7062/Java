@@ -1,0 +1,7 @@
+package java0430_inheritance.part11;
+
+public class Cloth {
+private String Brand;
+private String kind;
+private int price;
+}

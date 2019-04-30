@@ -1,0 +1,14 @@
+package java0426_class.part08;
+
+public class CountVarg {
+	
+	
+	void addValue(int...arr) {
+		int sum = 0;
+		for(int i =0; i <arr.length; i++) {
+			sum+=arr[i];
+		}
+		System.out.println(sum);
+	}
+
+}//end class

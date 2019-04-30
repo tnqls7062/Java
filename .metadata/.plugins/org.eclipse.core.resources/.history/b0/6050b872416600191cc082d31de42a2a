@@ -1,0 +1,16 @@
+package java0424_method;
+
+public class Java059_method {
+
+	public static void main(String[] args) {
+		
+
+	}//end main()
+
+	public static boolean process (int data) {
+		//data 매개변수의 값이 짝수이면 true,
+		//홀수이면 false를 리턴하는 프로그램을 구현하세요.
+		return false;
+		
+	}//end process()
+}//end class

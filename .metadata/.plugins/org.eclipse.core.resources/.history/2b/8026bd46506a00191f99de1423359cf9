@@ -1,0 +1,14 @@
+package java0430_inheritance.part01;
+/* 시험!시험!시험!시험! 100%
+ *
+ * 상속 : 다른 클래스가 가지고 있는 멤버들을 새로 만들 클래스에서 직접 만들지 않고 
+ * 상속을 받음으로써 새 클래스가 자신의 멤버처럼 사용할 수 있게 만든 기술
+ */
+public class Java092_inheritance {
+
+	public static void main(String[] args) {
+		
+
+	}//end main()
+
+}//end class

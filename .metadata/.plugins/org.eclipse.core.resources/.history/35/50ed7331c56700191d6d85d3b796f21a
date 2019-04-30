@@ -1,0 +1,19 @@
+package java0426_class.part03;
+/*
+ * 김병조
+ */
+public class Java075_class {
+
+	public static void main(String[] args) {
+		Doctor[] dt = new Doctor[5];
+
+		//구현
+		
+		search(dt,"피부과");
+	}//end main()
+public static void search(Doctor[]dt, String medical) {
+	
+	//구현
+	
+}//end search()
+}//end class

@@ -1,0 +1,12 @@
+package java0426_class.part05;
+
+public class Insurance {
+ String code; //상품코드
+ String name; //상품명
+ String type; //상품종류
+ int payment; //납임보험료
+ 
+ public Insurance() {
+	 
+ }
+}

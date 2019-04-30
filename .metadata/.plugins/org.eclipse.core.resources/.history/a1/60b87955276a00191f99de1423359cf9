@@ -1,0 +1,16 @@
+package java0429_static_access.part07;
+
+public class Java090_singleton {
+
+	public static void main(String[] args) {
+		String name;
+		int age;
+		
+		MemberDAO dp = new MemberDAO();
+		dp.display();
+		
+		MemberDAO da = new MemberDAO();
+		da.display();
+	}//end main()
+
+}//end class

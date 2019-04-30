@@ -1,0 +1,15 @@
+package java0425_class.part04;
+/*
+ * 메뉴명     가격     갯수
+ * 떡볶이    2000  3
+ * 김말이      500  2
+ * 오뎅         300  4
+ */
+/*
+ * 
+ */
+public class Menushop {
+String menu; //메뉴명
+int price; //가격
+int cnt; //갯수
+}//end class

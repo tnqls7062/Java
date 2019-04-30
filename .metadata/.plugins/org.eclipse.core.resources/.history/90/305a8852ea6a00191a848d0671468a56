@@ -1,0 +1,12 @@
+package java0430_inheritance.part06;
+
+public class DogOver {
+	class DogOver extends PetOver {
+
+		public void move() {
+			super.move();
+
+		}
+	}
+
+}

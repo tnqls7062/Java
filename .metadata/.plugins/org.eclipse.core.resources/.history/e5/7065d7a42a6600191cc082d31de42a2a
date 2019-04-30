@@ -1,0 +1,17 @@
+package java0424_method;
+
+public class Java053_method {
+	public static void test(int point) {
+		
+	}//end test()
+	
+	public static void process(String name, boolean chk) {
+		
+	}// end process()
+
+	public static void main(String[] args) {
+		
+
+	}//end main()
+
+}//end class

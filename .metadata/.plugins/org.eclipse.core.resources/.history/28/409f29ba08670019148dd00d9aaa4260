@@ -1,0 +1,45 @@
+package java0425_class.part03;
+
+/*
+ * [출력결과]
+ * [가로5, 세로3의 사각형]
+ * 넓이:15
+ * 둘레:16
+ * ======================
+ * [가로7, 세로4의 사각형]
+ * 넓이:28
+ * 둘레:22
+ */
+public class Java067_class {
+
+	public static void main(String[] args) {
+
+		/*	Rect rc = new Rect();
+		rc.width = 5;
+		rc.height = 3;
+
+		Rect rs = new Rect();
+		rs.width = 7;
+		rs.height = 4;
+
+		System.out.printf("[가로%d, 세로%d의 사각형]\n", rc.width,rc.height);
+		System.out.printf("넓이:%d\n",rc.area());
+		System.out.printf("둘레:%d\n",rc.grith());
+		System.out.println("==================");
+		System.out.printf("[가로%d, 세로%d의 사각형]\n", rs.width,rs.height);
+		System.out.printf("넓이:%d\n",rs.area());
+		System.out.printf("둘레:%d\n",rs.grith());
+		*/
+		Rect rc = new Rect();
+		rc.width =5;
+		rc.height=3;
+		rc.prn();
+		System.out.println("==============");
+		Rect rs = new Rect();
+		rs.width =7;
+		rs.height=4;
+		
+		rs.prn();
+	}// end main()
+
+}// end class

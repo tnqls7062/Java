@@ -1,0 +1,27 @@
+package java0430_inheritance.part03;
+
+public class SuperConst {
+	int x;
+	int y;
+
+	public SuperConst(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+}// end class
+
+class SubConst extends SuperConst { // 오류 발생이유 sub const 라는 인자값이 없는 상위 호출해. 근데 인자값 정의가 안되있오. 해결하기 위해 인자값이 없는 생상산자를
+									// 정의하던지 있는거 호출 ; Test!Test!Test! 왜 컴파일 안되니?
+	/*
+	 * SubConst() {
+	 * 
+	 * }
+	 */
+	 //SuperConst 클래스에 1개의 생성자가 정의되어 있으므로
+	 //JVM에서 기본생성자를 제공하지 않으므로 super()로 호출할 수 없다. 
+	 
+	SubConst() {
+		//super();
+		super(10, 40);
+	}
+}// end class

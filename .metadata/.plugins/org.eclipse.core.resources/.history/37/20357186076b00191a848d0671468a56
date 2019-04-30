@@ -1,0 +1,36 @@
+package java0430_inheritance.part11;
+/* 
+[출력결과]
+자라          무지티셔츠             19000
+자라          가죽자켓                180000
+H&M     청바지 	      29900
+유니클로    슬랙스 	      22900
+무인양품    면바지 	      17000
+***************************************************
+자라          무지티셔츠             19000     잠실롯데월드몰           9층
+유니클로    슬랙스 	      22900          명동롯데본점              5층
+H&M     청바지 	      29900          현대백화점목동점        5층 
+무인양품    면바지 	      17000          강남역                       1층
+
+*/
+public class Java102_inheritance_prob {
+
+	public static void main(String[] args) {
+		// 출력결과를 참조하여 정상적으로 프로그램 실행이 되도록 여기를 구현하세요.
+        Cloth[] cl=new Cloth[5];
+        Pants ps=new Pants();
+        cl[0]= new Cloth("자라","무지티셔츠",19000);
+        cl[1]= new Cloth("자라","가죽자켓",180000);
+        cl[2]= new Cloth("H&M","청바지",29900);
+        cl[3]= new Cloth("유니클로","슬랙스",22900);
+        cl[4]= new Cloth("무인양품","면바지",17000);
+        
+        for( Cloth co: cl)
+        	co.display();
+        
+        System.out.println("**********************************");
+        
+        
+	}
+
+}

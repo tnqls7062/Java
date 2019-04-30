@@ -1,0 +1,45 @@
+package java0430_inheritance.part11;
+
+import java0430_inheritance.part11.Cloth;
+
+public class Pants extends Cloth {
+	private String location;
+	private String floor;
+
+	public Pants(String brand, String kind, int price, String location, String floor) {
+		super(brand, kind, price);
+		this.location = location;
+		this.floor = floor;
+	}
+
+	
+
+	public String getLocation() {
+		return location;
+	}
+
+
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+
+
+	public String getFloor() {
+		return floor;
+	}
+
+
+
+	public void setFloor(String floor) {
+		this.floor = floor;
+	}
+
+
+
+	@Override
+	public void display() {
+		System.out.printf("%-4s %-10s %6d %s %s\n", getBrand(), getKind(), getPrice(), getLocation(), getFloor());
+	}
+}

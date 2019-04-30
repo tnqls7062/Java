@@ -1,0 +1,12 @@
+package java0425_class.part02;
+/*
+ * [도서관리]
+ * 제목                       대출여부
+ * 칼의노래                  대출중
+ * 어두운 상점의 거리     대출가능
+ */
+public class Book {
+
+	
+
+}//end class

@@ -1,0 +1,14 @@
+package java0425_class.part05;
+
+public class MemberVar {
+//멤버변수는 기본값을 제공한다.(JVM)
+	byte var_byte;
+	short var_short;
+	int var_int;
+	long var_long;
+	float var_float;
+	double var_double;
+	boolean var_boolean;
+	char var_char;
+	int[] num;
+}//end class

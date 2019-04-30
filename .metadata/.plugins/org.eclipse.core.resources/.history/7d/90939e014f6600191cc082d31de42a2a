@@ -1,0 +1,18 @@
+package java0424_method;
+
+public class Java060_method {
+
+	public static void main(String[] args) {
+		char[] data=new data[] {'j','A','v','a'};
+
+	}//end main()
+	public static int length(char[]data) {
+		return 0;
+	}//end length()
+	
+	public static char charAt(char[] data, int index) {
+		//data배열에서 index에 해당하는 문자를 리턴하는 프로그램을 구현하세요.
+		return '0';
+	}//end charAt()
+
+}//end class

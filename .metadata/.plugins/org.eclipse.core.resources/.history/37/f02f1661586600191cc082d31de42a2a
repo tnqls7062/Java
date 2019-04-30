@@ -1,0 +1,19 @@
+package java0424_method;
+/*
+ * [출력결과]
+ * java test
+ * tset avaj
+ * java test
+ */
+public class Java063_method {
+
+	public static void main(String[] args) {
+		
+
+	}//end main()
+
+	public static char[] reverse(char[]data) {
+		return null;
+	}
+	
+}//end class

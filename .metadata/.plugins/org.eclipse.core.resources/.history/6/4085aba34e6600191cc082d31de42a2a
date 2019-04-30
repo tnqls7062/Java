@@ -1,0 +1,13 @@
+package java0424_method;
+
+public class Java060_method {
+
+	public static void main(String[] args) {
+		
+
+	}//end main()
+	public static int length(char[]data) {
+		return 0;
+	}//end length
+
+}//end class

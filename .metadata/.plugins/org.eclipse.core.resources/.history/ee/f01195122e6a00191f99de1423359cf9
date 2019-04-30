@@ -1,0 +1,13 @@
+package java0429_static_access.part08;
+
+public class Time {
+	private int hour;
+	private int minute;
+	private int second;
+	
+	public Time() {
+		
+	}
+	
+	public void setHour(int hour)
+}// end class

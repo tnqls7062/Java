@@ -1,0 +1,9 @@
+package java0430_inheritance.part11;
+
+public class Pants {
+
+	private String location;
+	private String floor;
+	
+	Public Pants (String location, String floor);
+}

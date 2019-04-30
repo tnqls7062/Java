@@ -1,0 +1,19 @@
+package java0426_class.part05;
+
+public class Java077_class {
+
+	public static void main(String[] args) {
+		int sum = process(is,search);
+		totalPrice(sum,search);
+	}//end main()
+	
+	public static int process(Insurance[] is,String name) {
+		
+		return 0;
+	}//end process()
+	
+	public static void totalPrice(int sum, String name) {
+		System.out.printf("%s 총남입액은 %원 입니다.\n",name,sum);
+	}//end totalPrice()
+
+}//end class

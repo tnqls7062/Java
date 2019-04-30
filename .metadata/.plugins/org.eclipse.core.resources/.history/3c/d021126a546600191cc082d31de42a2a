@@ -1,0 +1,12 @@
+package java0424_method;
+[출력결과]
+		입사총점:815점
+		입사결과:합격입니다
+public class Java062_method {
+
+	public static void main(String[] args) {
+		
+
+	}//end main()
+
+}//end class

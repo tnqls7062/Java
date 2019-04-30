@@ -1,0 +1,26 @@
+package java0425_class;
+/*
+ * 사용자가 정의한 데이터 타입-사람객체
+ */ class Person{
+		String name;
+		int age;
+		char gen;
+		
+		public void eat() {
+			System.out.println("먹는다");
+		}
+		public void run() {
+			System.out.println("달린다");
+		}
+	}//end class
+	public class Java065_class {
+	
+	public static void main(String[] args) {
+		Person ps; // 객체선언-메모리 생성이 안됨
+		ps= new Person(); // 객체생성-메모리 생성이 됨
+		System.out.println(ps.name);
+		System.out.println(ps.age);
+		System.out.println(ps.gen);
+	}
+
+}

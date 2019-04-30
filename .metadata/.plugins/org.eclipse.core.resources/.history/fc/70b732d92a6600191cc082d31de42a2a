@@ -1,0 +1,17 @@
+package java0424_method;
+
+public class Java053_method {
+	public static void test(int point) {
+		System.out.println(point+"포인트가 적립되었습니다.");
+	}//end test()
+	
+	public static void process(String name, boolean chk) {
+		
+	}// end process()
+
+	public static void main(String[] args) {
+		
+
+	}//end main()
+
+}//end class

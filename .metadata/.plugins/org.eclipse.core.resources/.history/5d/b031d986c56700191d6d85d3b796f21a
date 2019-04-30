@@ -1,0 +1,28 @@
+package java0426_class.part03;
+/*
+ * 김병조/외과/39
+ * 이상만/내과/50
+ * 박상기/피부과/20
+ * 오상수/내과/25
+ * 윤달수/피부과/30
+ */
+/*
+ * [출력결과]
+ * 박상기 피부과 20
+ * 윤달수 피부과 30
+ */
+public class Java075_class {
+
+	public static void main(String[] args) {
+		Doctor[] dt = new Doctor[5];
+
+		//구현
+		
+		search(dt,"피부과");
+	}//end main()
+public static void search(Doctor[]dt, String medical) {
+	
+	//구현
+	
+}//end search()
+}//end class

@@ -1,0 +1,19 @@
+package java0426_class.part02;
+/*
+ * [실행결과]를 참조하여 main()메소드를 추가하는 로직을 구현하세요.
+ *
+ * [실행결과]
+ * 상품                      가격                상품제고            팔린수량
+ * Nikon        400000        30          50
+ * Sony         450000        20          35
+ * FujiFilm     350000        10          25
+ */
+public class Java074_class {
+
+	public static void main(String[] args) {
+	Goods gs = new Goods( Nikon ,400000, 30, 50);
+	gs.prn();
+
+	}//end main()
+
+}//end class

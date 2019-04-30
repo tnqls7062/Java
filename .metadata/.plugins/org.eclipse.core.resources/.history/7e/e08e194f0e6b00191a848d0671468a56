@@ -1,0 +1,15 @@
+package java0430_inheritance.prob.part02;
+
+public class StudentExam extends Human {
+ private int id;
+ 
+ StudentExam(){
+	 
+ }
+ 
+ StudentExam(String name, int age, int height, int weight, int id){
+	 super(name, age,height,weight);
+	 this.id=id;
+ }
+ 
+}

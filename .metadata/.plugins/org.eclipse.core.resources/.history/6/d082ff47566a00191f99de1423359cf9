@@ -1,0 +1,21 @@
+package java0430_inheritance.part02;
+
+class MyGrand{
+	public MyGrand() {
+		System.out.println("MyGrand");
+	}
+
+	class MyFather extends MyGrand{
+		public MyFather() { //5
+			super();//6
+			System.out.println("MyFather");
+		}
+	}
+
+	class MyChild extends MyFather{
+		public MyChild() { //3
+			super(); //4
+			System.out.println("MyChild");
+		}
+	}
+}

@@ -1,0 +1,10 @@
+package java0430_inheritance.part11;
+
+public class Java102_inheritance_prob {
+
+	public static void main(String[] args) {
+		// 출력결과를 참조하여 정상적으로 프로그램 실행이 되도록 여기를 구현하세요.
+
+	}
+
+}

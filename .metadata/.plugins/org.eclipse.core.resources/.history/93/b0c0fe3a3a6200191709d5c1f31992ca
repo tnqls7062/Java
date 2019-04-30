@@ -1,0 +1,50 @@
+package java0418_basic;
+
+public class Java016_print {
+
+	public static void main(String[] args) {
+		System.out.println("java");
+		System.out.println("jsp");
+		System.out.print("spring\n");
+		System.out.print("oracle\n");
+		/*
+		 * printf("출력형식",값1,값2...)
+		 * 
+		 * 출력기호
+		 * %s : 문자열
+		 * %d : 정수
+		 * %f : 실수
+		 * %c : 문자
+		 * %b : 논리
+		 * %% : %
+		 * \ : 특수문자를 처리하는 기호
+		 */
+		System.out.printf("%s\n", "mybatis");
+		System.out.printf("%d\n",50L);//byte, short,int, long
+		System.out.printf("%f\n",4.5F);//float, double
+		System.out.printf("%c %b %d\n", 'a', true, 10);
+		//소수점 첫번째까지 출력을 한다.(반올림)
+        System.out.printf("%.1f\n", 4.56);
+        
+        //5은 총자릿수(소수점 포함) .1은 소수점 자릿수
+        System.out.printf("%5.1f\n", 4.56);
+        System.out.printf("%5.1f\n", 34.56);
+        System.out.printf("%5.1f\n", 124.56);
+        System.out.printf("5.1f\n", 5124.56);
+        
+        System.out.printf("%5.2\n", 4.56);
+        System.out.printf("%5.2f\n", 4.5);
+        
+        
+	}// end main()
+
+}// end class
+
+
+
+
+
+
+
+
+

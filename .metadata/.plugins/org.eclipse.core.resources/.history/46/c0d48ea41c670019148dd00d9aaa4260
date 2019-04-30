@@ -1,0 +1,12 @@
+package java0425_class.part06;
+
+public class HandPhone {
+//멤버변수
+	String name;
+	String number;
+	
+//생성자
+	HandPhone(){
+		
+	}
+}

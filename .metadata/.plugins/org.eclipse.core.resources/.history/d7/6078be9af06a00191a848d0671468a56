@@ -1,0 +1,15 @@
+package java0430_inheritance.part07;
+
+class SubClass extends SuperClass{
+public SubClass(int a, int b, int c) {
+
+Super();	
+sumData();
+	
+}
+
+public void sumData() {
+	System.out.println("합: " + ( x + y + z ));
+}
+
+}

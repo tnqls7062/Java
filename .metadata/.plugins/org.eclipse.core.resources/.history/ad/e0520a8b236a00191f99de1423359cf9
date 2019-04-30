@@ -1,0 +1,11 @@
+package java0429_static_access.part05;
+
+public class Java088_access {
+
+	public static void main(String[] args) {
+		Java087_access p = new Java087_access();
+		System.out.printf("var_private=%d\n,p.var_private");
+
+	}// end main()
+
+}// end class

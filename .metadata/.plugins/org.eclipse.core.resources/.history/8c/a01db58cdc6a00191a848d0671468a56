@@ -1,0 +1,28 @@
+package java0430_inheritance.part04;
+
+public class Parent {
+	String name;
+	int age;
+
+	public Parent() {
+
+	}
+
+	public Parent(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+}// end class
+
+class Son extends Parent {
+	String dept;
+
+	public Son() {
+
+	}
+
+	public Son(String name, int age, String dept) {
+		super(name, age);
+		this.dept = dept;
+	}
+}

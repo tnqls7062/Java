@@ -1,0 +1,18 @@
+package java0429_static_access.part07;
+
+public class MemberDAO {
+
+	private MemberDAO dao = new MemberDAO();
+	private MemberDAO(){
+    
+	}
+	
+	public MemberDAO getInstance() {
+		return dao;
+}
+
+
+	public void display() {
+		System.out.println("display");
+	}
+}// end class

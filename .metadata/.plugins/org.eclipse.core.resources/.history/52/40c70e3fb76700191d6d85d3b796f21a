@@ -1,0 +1,10 @@
+package java0426_class.part01;
+
+public class Song {
+   String title;
+   String artist;
+   String album;
+   String[] composer;
+   int year;
+   int track;
+}//end class

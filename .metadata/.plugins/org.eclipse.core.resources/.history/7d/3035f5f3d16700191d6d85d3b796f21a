@@ -1,0 +1,13 @@
+package java0426_class.part05;
+
+public class Java077_class {
+
+	public static void main(String[] args) {
+		
+	}//end main()
+	
+	public static int process(Insurance[] is,String name) {
+		return 0;
+	}//end process()
+
+}//end class

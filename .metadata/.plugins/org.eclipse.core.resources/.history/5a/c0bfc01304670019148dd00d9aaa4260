@@ -1,0 +1,13 @@
+package java0425_class.part03;
+/*
+ * [사각형 도형]
+ * 가로          세로          넓이를 구한다          둘레를 구한다
+ * 5       3      15            16
+ * 7       4      28            22
+ * */
+public class Rect {
+
+	
+
+	
+}//end class

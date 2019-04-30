@@ -1,0 +1,9 @@
+package java0430_inheritance.part03;
+
+public class SuperConst {
+
+}//end class
+
+class SubConst{
+	
+}//end class

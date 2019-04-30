@@ -1,0 +1,16 @@
+package java0425_class.part07;
+
+public class Product {
+	String code;
+	String name;
+	int cnt;
+
+	public Product() {
+		
+	}
+	
+	public Product(String code, String pname, int cnt) {
+		
+	}
+	
+}

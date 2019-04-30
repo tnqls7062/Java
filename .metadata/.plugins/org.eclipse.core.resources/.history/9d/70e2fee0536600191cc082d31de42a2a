@@ -1,0 +1,35 @@
+package java0424_method;
+
+/*
+ * [출력결과]
+ * 20는 양수입니다.
+ * 0은 0입니다.
+ * -20은 음수입니다.
+ */
+public class Java061_method {
+
+	public static void main(String[] args) {
+		process(20);
+		process(0);
+		process(-20);
+		
+		
+	}// end main()
+
+	public static void process(int data) {
+		if(data>0){
+			System.out.printf("%d 는 양수입니다.\n", data);
+		} else if(data<0 ){
+			System.out.printf("%d 는 음수입니다.\n", data);
+		}else {
+			System.out.printf("%d 은 0입니다.\n",data);
+		}
+		
+		
+		// num변수의 값이 0보다 크면 "양수",0이면"0"
+		// 0보다 작으면 "음수"로
+		// 출력하는 프로그램을 구현하세요.
+
+	}// end process()
+
+}// end class

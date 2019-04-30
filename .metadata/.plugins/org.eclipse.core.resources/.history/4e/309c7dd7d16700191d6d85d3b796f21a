@@ -1,0 +1,9 @@
+package java0426_class.part05;
+
+public class Java077_class {
+
+	public static void main(String[] args) {
+		
+	}//end main()
+
+}//end class

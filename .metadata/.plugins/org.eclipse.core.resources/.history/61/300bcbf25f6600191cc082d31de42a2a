@@ -1,0 +1,13 @@
+package java0424_method;
+
+public class Java064_method {
+
+	public static void main(String[] args) {
+		char[] data=new char[] {'a','b','c'};
+		System.out.println(data);
+		System.out.printf("%s\n",data);
+		System.out.println("data="+data);
+
+	}//end main()
+
+}//end class

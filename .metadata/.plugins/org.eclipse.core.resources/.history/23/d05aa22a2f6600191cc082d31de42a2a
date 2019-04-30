@@ -1,0 +1,23 @@
+package java0424_method;
+
+public class Java054_method {
+
+	public static void main(String[] args) { //영역이 다르면 같은이름써도된다.
+		int year =2012;
+        if (isLeapYear(year)) {
+        	System.out.printf("%d년도는 윤년입니다.\n",year);
+        }else {
+        	System.out.printf("%d년도는 평년입니다.\n",year);
+        }
+	}//end main()
+
+	public static boolean isLeapYear(int year) {
+		//어떤 년도가 윤년이면 true, 평년이면 false을 리턴하는 프로그램 구현
+		if(year%4==0 && year%100==!0) {
+			System.out.printf("%b",true);
+		}else {
+			System.out.printf("%b",false);
+		}
+	}//end isLeapYear()
+	
+}//end class

@@ -1,0 +1,46 @@
+package java0425_class.part04;
+
+/*
+ * [출력결과]
+ * 메뉴명:떡볶이
+ * 가격:2000
+ * 갯수:3
+ * 메뉴금액:6000
+ * 
+ * 메뉴명:김말이
+ * 가격:500
+ * 갯수:2
+ * 메뉴금액:1000
+ * 
+ * 메뉴명:오뎅
+ * 가격:300
+ * 갯수:4
+ * 메뉴금액:1200
+ */
+public class Java068_class {
+
+	public static void main(String[] args) {
+		Menushop ca = new Menushop();
+		ca.menu = "떡볶이";
+		ca.price = 2000;
+		ca.cnt = 3;
+		ca.prn();
+		
+		Menushop co = new Menushop();
+		co.menu = "김말이";
+		co.price = 500;
+		co.cnt = 2;
+		co.prn();
+		
+		Menushop cs = new Menushop();
+		cs.menu = "오뎅";
+		cs.price = 300;
+		cs.cnt = 4;
+		cs.prn();
+	    
+	
+		System.out.println("================");
+		System.out.printf("총금액:%d\n",co.prn()+ca.prn()+cs.prn());
+	}
+
+}

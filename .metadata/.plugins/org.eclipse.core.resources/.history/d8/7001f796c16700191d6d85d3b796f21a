@@ -1,0 +1,40 @@
+package java0426_class.part02;
+
+/*
+ * [실행결과]를 참조하여 main()메소드를 추가하는 로직을 구현하세요.
+ *
+ * [실행결과]
+ * 상품                      가격                상품제고            팔린수량
+ * Nikon        400000        30          50
+ * Sony         450000        20          35
+ * FujiFilm     350000        10          25
+ */
+public class Java074_class {
+
+	public static void main(String[] args) {
+System.out.printf("");
+		
+/*Goods nk = new Goods("Nikon", 400000, 30, 50);
+		nk.prn();
+
+		Goods sn = new Goods("Sony", 250000, 20, 35);
+		sn.prn();
+
+		Goods ff = new Goods("FujiFilm", 350000, 10, 25);
+		ff.prn();
+		*/
+
+Goods[] goodArray=new Goods[3];
+goodArray[0]=new Goods ("Nikon",400000,30,50);
+goodArray[1]=new Goods ("Sony",450000,20,35);
+goodArray[2]=new Goods ("FujiFilm",350000,10,25);
+/*goodArray[0].prn();
+goodArray[1].prn();
+goodArray[2].prn();*/
+for(int i=0; i<goodArray.length;i++) {
+	goodAray[i].prn();
+}
+
+	}// end main()
+
+}// end class
